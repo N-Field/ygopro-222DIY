@@ -64,7 +64,7 @@ after_build:
   - git clone https://github.com/Smile-DK/ygopro-scripts script
   - mkdir replay
   - cp -rf ../../expansions .
-  - cp -rf ../../ygopro-7210srv/expansions .
+  # - cp -rf ../../ygopro-7210srv/expansions .
   - cp -rf ../../gframe .
   - cp -rf ../../ocgcore .
   - cp -rf ../../ygopro-7210srv/premake .
